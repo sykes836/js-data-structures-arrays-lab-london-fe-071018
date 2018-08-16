@@ -2,11 +2,8 @@
 
 
 
- var drivers = ["Milo", "Otis", "Garfield"]
+ const drivers = ["Milo", "Otis", "Garfield"]
 
- function drivers() {
-  const drivers = [TypeError];
-}
  
  function destructivelyAppendDriver(driver) {
   drivers.push(driver);
